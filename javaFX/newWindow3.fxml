@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3000.0" prefWidth="1558.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <content>
+      <AnchorPane prefHeight="3000.0" prefWidth="1558.0">
+         <children>
+            <AnchorPane prefHeight="57.0" prefWidth="1558.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="14.0" layoutY="4.0" prefHeight="46.0" prefWidth="174.0" text="Royal Bite  Home" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="1422.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: black;" text="Contact" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1186.0" layoutY="7.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="105.0" style="-fx-background-color: black;" text="Booking" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1302.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: black;" text="Gallery" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Label layoutX="717.0" layoutY="130.0" prefHeight="38.0" prefWidth="114.0" text="Menu">
+               <font>
+                  <Font name="Baskerville Old Face" size="44.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#166e3a" height="99.0" layoutX="475.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="598.0" />
+            <Label layoutX="706.0" layoutY="264.0" prefHeight="50.0" prefWidth="134.0" text="Starters" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="42.0" />
+               </font>
+            </Label>
+            <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="786.0" layoutY="1437.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+            <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="775.0" layoutY="779.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+            <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="775.0" layoutY="836.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+            <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="769.0" layoutY="412.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+            <Label layoutX="593.0" layoutY="449.0" prefHeight="58.0" prefWidth="370.0" text="Salmon in a frying pan">
+               <font>
+                  <Font name="Baskerville Old Face" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="398.0" layoutY="523.0" prefHeight="50.0" prefWidth="805.0" text="Salmon in a frying pan decorated with a signature sauce that is typical only for our breading">
+               <font>
+                  <Font name="Baskerville Old Face" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="652.0" layoutY="588.0" prefHeight="34.0" prefWidth="242.0" text="personally from the Chef">
+               <font>
+                  <Font name="Baskerville Old Face" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="730.0" layoutY="689.0" prefHeight="30.0" prefWidth="85.0" text="USD  35">
+               <font>
+                  <Font name="Baskerville Old Face" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="659.0" layoutY="880.0" prefHeight="58.0" prefWidth="283.0" text="Seafood risotto">
+               <font>
+                  <Font name="Baskerville Old Face" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="511.0" layoutY="975.0" prefHeight="34.0" prefWidth="593.0" text="Seafood risotto is a unique dish that is ready to decorate any dinner.">
+               <font>
+                  <Font name="Baskerville Old Face" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="527.0" layoutY="1038.0" prefHeight="31.0" prefWidth="546.0" text="Fresh vegetables and fresh lobsters go perfectly together.">
+               <font>
+                  <Font name="Baskerville Old Face" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="736.0" layoutY="1105.0" prefHeight="30.0" prefWidth="85.0" text="USD 30 ">
+               <font>
+                  <Font name="Baskerville Old Face" size="23.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#166e3a" height="99.0" layoutX="491.0" layoutY="1242.0" stroke="BLACK" strokeType="INSIDE" width="598.0" />
+            <Label layoutX="733.0" layoutY="1266.0" prefHeight="50.0" prefWidth="134.0" text="Salads" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="728.0" layoutY="1475.0" prefHeight="58.0" prefWidth="99.0" text="Capri">
+               <font>
+                  <Font name="Baskerville Old Face" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="470.0" layoutY="1573.0" prefHeight="45.0" prefWidth="674.0" text="Italian classic. The most important ingredient in this salad is Mozzarella cheese.">
+               <font>
+                  <Font name="Baskerville Old Face" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="451.0" layoutY="1629.0" prefHeight="34.0" prefWidth="729.0" text="By adding basil and olive oil, the taste of the cheese will sparkle with new notes.">
+               <font>
+                  <Font name="Baskerville Old Face" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="751.0" layoutY="1714.0" prefHeight="32.0" prefWidth="81.0" text="USD 20">
+               <font>
+                  <Font name="Baskerville Old Face" size="21.0" />
+               </font>
+            </Label>
+            <AnchorPane prefHeight="2990.0" prefWidth="1558.0">
+               <children>
+                  <AnchorPane prefHeight="57.0" prefWidth="1558.0" style="-fx-background-color: black;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="4.0" prefHeight="46.0" prefWidth="103.0" text="Royal Bite  " textFill="WHITE">
+                           <font>
+                              <Font name="Baskerville Old Face" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="contactButton2" layoutX="1422.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleContactButton" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: black;" text="Contact" textFill="WHITE">
+                           <font>
+                              <Font name="Baskerville Old Face" size="22.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="bookingButton2" layoutX="1186.0" layoutY="7.0" mnemonicParsing="false" onAction="#handleBookingButton" prefHeight="43.0" prefWidth="105.0" style="-fx-background-color: black;" text="Booking" textFill="WHITE">
+                           <font>
+                              <Font name="Baskerville Old Face" size="22.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="galleryButton2" layoutX="1302.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleGallaryButton" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: black;" text="Gallery" textFill="WHITE">
+                           <font>
+                              <Font name="Baskerville Old Face" size="22.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="homeButton2" layoutX="128.0" layoutY="5.0" mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="43.0" prefWidth="105.0" style="-fx-background-color: black;" text="Home" textFill="WHITE">
+                           <font>
+                              <Font name="Baskerville Old Face" size="22.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#166e3a" height="99.0" layoutX="475.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="598.0" />
+                  <Label layoutX="706.0" layoutY="264.0" prefHeight="50.0" prefWidth="134.0" text="Starters" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="42.0" />
+                     </font>
+                  </Label>
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="786.0" layoutY="1437.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="775.0" layoutY="779.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="775.0" layoutY="836.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="769.0" layoutY="412.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Label layoutX="593.0" layoutY="449.0" prefHeight="58.0" prefWidth="370.0" text="Salmon in a frying pan">
+                     <font>
+                        <Font name="Baskerville Old Face" size="39.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="398.0" layoutY="523.0" prefHeight="50.0" prefWidth="805.0" text="Salmon in a frying pan decorated with a signature sauce that is typical only for our breading">
+                     <font>
+                        <Font name="Baskerville Old Face" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="652.0" layoutY="588.0" prefHeight="34.0" prefWidth="242.0" text="personally from the Chef">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="730.0" layoutY="689.0" prefHeight="30.0" prefWidth="85.0" text="USD  35">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="659.0" layoutY="880.0" prefHeight="58.0" prefWidth="283.0" text="Seafood risotto">
+                     <font>
+                        <Font name="Baskerville Old Face" size="39.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="511.0" layoutY="975.0" prefHeight="34.0" prefWidth="593.0" text="Seafood risotto is a unique dish that is ready to decorate any dinner.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="527.0" layoutY="1038.0" prefHeight="31.0" prefWidth="546.0" text="Fresh vegetables and fresh lobsters go perfectly together.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="736.0" layoutY="1105.0" prefHeight="30.0" prefWidth="85.0" text="USD 30 ">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#166e3a" height="99.0" layoutX="491.0" layoutY="2311.0" stroke="BLACK" strokeType="INSIDE" width="598.0" />
+                  <Label layoutX="733.0" layoutY="2335.0" prefHeight="50.0" prefWidth="134.0" text="Soups" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="42.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="728.0" layoutY="1475.0" prefHeight="58.0" prefWidth="99.0" text="Capri">
+                     <font>
+                        <Font name="Baskerville Old Face" size="39.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="470.0" layoutY="1573.0" prefHeight="46.0" prefWidth="697.0" text="Italian classic. The most important ingredient in this salad is Mozzarella cheese.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="451.0" layoutY="1629.0" prefHeight="34.0" prefWidth="729.0" text="By adding basil and olive oil, the taste of the cheese will sparkle with new notes.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="748.0" layoutY="2209.0" prefHeight="32.0" prefWidth="81.0" text="USD 20">
+                     <font>
+                        <Font name="Baskerville Old Face" size="21.0" />
+                     </font>
+                  </Label>
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="788.0" layoutY="1843.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="788.0" layoutY="1903.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Label layoutX="674.0" layoutY="1944.0" prefHeight="87.0" prefWidth="230.0" text="Niçoise with tuna">
+                     <font>
+                        <Font name="Baskerville Old Face" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="505.0" layoutY="2056.0" prefHeight="46.0" prefWidth="666.0" text="Fresh tuna and selected vegetables are what this salad is all about.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="582.0" layoutY="2113.0" prefHeight="46.0" prefWidth="414.0" text="Cheddar cheese enhances the selected taste.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Line endX="299.7999267578125" endY="3.0517578125E-5" layoutX="786.0" layoutY="2508.0" startX="-292.1999816894531" startY="6.103515625E-5" strokeDashOffset="10.0" strokeMiterLimit="20.0" />
+                  <Label layoutX="714.0" layoutY="2538.0" prefHeight="87.0" prefWidth="129.0" text="Fasolada">
+                     <font>
+                        <Font name="Baskerville Old Face" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="417.0" layoutY="2618.0" prefHeight="46.0" prefWidth="768.0" text="Healthy breakfast, healthy day, this soup will definitely give you energy and strength.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="621.0" layoutY="2674.0" prefHeight="46.0" prefWidth="334.0" text="A great way to improve your health.">
+                     <font>
+                        <Font name="Baskerville Old Face" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="733.0" layoutY="2768.0" prefHeight="32.0" prefWidth="81.0" text="USD 40">
+                     <font>
+                        <Font name="Baskerville Old Face" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

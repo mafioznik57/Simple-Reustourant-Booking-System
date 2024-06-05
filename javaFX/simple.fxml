@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="4275.0" prefWidth="1526.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimpleController">
+   <content>
+      <AnchorPane prefHeight="4338.0" prefWidth="1491.0">
+         <children>
+            <VBox prefHeight="40.0" prefWidth="242.0" />
+            <Label contentDisplay="CENTER" layoutX="517.0" layoutY="606.0" prefHeight="242.0" prefWidth="530.0" style="-fx-background-color: transparent;" text="Welcome To Royal Bite" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Baskerville Old Face" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="482.0" layoutY="764.0" prefHeight="47.0" prefWidth="530.0" text="Meet the most pleasant and bright moments with Royal Bite">
+               <font>
+                  <Font name="Baskerville Old Face" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="662.0" layoutY="1427.0" prefHeight="84.0" prefWidth="170.0" text="Sample Menu">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="317.0" layoutY="1613.0" rotate="90.0" startX="-100.0" strokeWidth="7.0" />
+            <Line endX="99.71060943603516" layoutX="319.0" layoutY="1902.0" rotate="90.0" startX="-100.0" strokeWidth="7.0" />
+            <Label layoutX="361.0" layoutY="1511.0" prefHeight="58.0" prefWidth="403.0" text="Salmon in a frying pan">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="1799.0" prefHeight="42.0" prefWidth="358.0" text="Seafood risotto">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="1569.0" prefHeight="30.0" prefWidth="842.0" text="Salmon in a frying pan decorated with a signature sauce that is typical only for our breading">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="1599.0" prefHeight="34.0" prefWidth="305.0" text="personally from the Chef">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="1663.0" prefHeight="30.0" prefWidth="145.0" text="USD  35">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="362.0" layoutY="1869.0" prefHeight="34.0" prefWidth="790.0" text="Seafood risotto is a unique dish that is ready to decorate any dinner.">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="1912.0" prefHeight="31.0" prefWidth="548.0" text="Fresh vegetables and fresh lobsters go perfectly together.">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="1964.0" prefHeight="27.0" prefWidth="90.0" text="USD  30">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="319.0" layoutY="2202.0" rotate="90.0" startX="-100.0" strokeWidth="7.0" />
+            <Label layoutX="361.0" layoutY="2111.0" prefHeight="46.0" prefWidth="302.0" text="Capri">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="362.0" layoutY="2185.0" prefHeight="30.0" prefWidth="674.0" text="Italian classic. The most important ingredient in this salad is Mozzarella cheese.">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="2215.0" prefHeight="34.0" prefWidth="674.0" text="By adding basil and olive oil, the taste of the cheese will sparkle with new notes.">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="2270.0" prefHeight="26.0" prefWidth="97.0" text="USD 20">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="secondMenuButton" cache="true" layoutX="627.0" layoutY="2358.0" mnemonicParsing="false" onAction="#handleSecondMenuButton" prefHeight="72.0" prefWidth="143.0" style="-fx-border-color: black; -fx-background-color: white;" text="Menu">
+               <font>
+                  <Font name="Baskerville Old Face" size="23.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="458.0" fitWidth="1512.0" layoutX="14.0" layoutY="2443.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cafe-terrace-old-fashioned-1661.jpg" />
+               </image></ImageView>
+            <Button fx:id="secondBookingButton" layoutX="626.0" layoutY="2999.0" mnemonicParsing="false" onAction="#handleSecondBookingButton" prefHeight="72.0" prefWidth="143.0" style="-fx-border-color: black; -fx-background-color: white;" text="Booking">
+               <font>
+                  <Font name="Baskerville Old Face" size="22.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="624.0" fitWidth="1209.0" layoutX="243.0" layoutY="3162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@1673556793_pro-dachnikov-com-p-foto-obedennogo-stola-s-yedoi-30.jpg" />
+               </image></ImageView>
+            <Label layoutX="656.0" layoutY="3891.0" prefHeight="57.0" prefWidth="203.0" text="Leave a Reply">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField layoutX="368.0" layoutY="3993.0" prefHeight="81.0" prefWidth="778.0" promptText="Enter a next..">
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <AnchorPane layoutY="-7.0" prefHeight="631.0" prefWidth="1514.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="14.0" layoutY="9.0" prefHeight="39.0" prefWidth="116.0" text="Royal Byte" textFill="WHITE">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="contactButton" layoutX="1397.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleContactButton" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: black;" text="Contact" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="menuButton" layoutX="1287.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleMenuButton" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: black;" text="Menu" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="galleryButton" layoutX="1171.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleGalleryButton" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: black;" text="Gallery" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="bookingButton" contentDisplay="TOP" graphicTextGap="5.0" layoutX="1057.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleBookingButton" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: black;" text="Booking" textFill="#ececec" textOverrun="CLIP">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Button>
+                  
+                  <ImageView fitHeight="560.0" fitWidth="1394.0" layoutX="148.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                      
+                      <image>
+                          <Image url="@Covet-edition-coveted-luxury-magazine-Steve-Leung-restaurant-mango-tree-hong-kong-2.png" />
+                      </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label layoutX="291.0" layoutY="3227.0" prefHeight="74.0" prefWidth="945.0" text="Welcome to Royal Bite, the epitome of sophistication and luxury in the world of gastronomy." textAlignment="JUSTIFY" textFill="#fcfcfc">
+               <font>
+                  <Font name="Baskerville Old Face" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="291.0" layoutY="3284.0" prefHeight="70.0" prefWidth="870.0" text="Our restaurant is a true symbol of luxury and magnificence, which amazes not only with" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="294.0" layoutY="3354.0" prefHeight="64.0" prefWidth="850.0" text="a magnificent culinary experience,but also elegant design and impeccable service." textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="319.0" layoutY="3486.0" prefHeight="56.0" prefWidth="308.0" />
+            <Label layoutX="347.0" layoutY="3478.0" prefHeight="67.0" prefWidth="132.0" text="Open Hour" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="347.0" layoutY="3551.0" prefHeight="48.0" prefWidth="293.0" text="Mon Sun: 09:00 am 10:00 pm" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="628.0" layoutY="3173.0" prefHeight="53.0" prefWidth="210.0" text="Royal Bite" textFill="#fcfcfc">
+               <font>
+                  <Font name="Baskerville Old Face" size="44.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="-2.0" layoutY="847.0" prefHeight="507.0" prefWidth="1515.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="509.0" fitWidth="960.0" layoutX="358.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ebe83252acdaa508c67a435d31c0a09d.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="517.0" layoutY="175.0" prefHeight="160.0" prefWidth="380.0" text="Discover Our Menu" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+         <effect>
+            <Blend />
+         </effect>
+      </AnchorPane>
+   </content>
+</ScrollPane>

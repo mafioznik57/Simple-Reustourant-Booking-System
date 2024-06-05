@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2200.0" prefWidth="1558.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GalleryController">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2200.0" prefWidth="1500.0" style="-fx-background-color: white;">
+            <children>
+                <AnchorPane layoutX="5.0" layoutY="68.0" prefHeight="2192.0" prefWidth="1603.0">
+                   <children>
+                      <Label layoutX="690.0" layoutY="174.0" prefHeight="79.0" prefWidth="156.0" text="Gallery">
+                         <font>
+                            <Font name="Baskerville Old Face" size="45.0" />
+                         </font>
+                      </Label>
+                  <AnchorPane layoutX="-5.0" layoutY="-70.0" prefHeight="62.0" prefWidth="1542.0" style="-fx-background-color: black;">
+                     <children>
+                            <Button fx:id="contactButton3" layoutX="1409.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleContactButton" prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: black;" text="Contact" textFill="WHITE">
+                               <font>
+                                  <Font name="Baskerville Old Face" size="21.0" />
+                               </font>
+                            </Button>
+                            <Button fx:id="manuButton3" layoutX="1310.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleMenuButton" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: black;" text="Menu" textFill="WHITE">
+                               <font>
+                                  <Font name="Baskerville Old Face" size="21.0" />
+                               </font>
+                            </Button>
+                            <Button fx:id="bookingButton3" layoutX="1190.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleBookingButton" prefHeight="43.0" prefWidth="109.0" style="-fx-background-color: black;" text="Booking" textFill="WHITE">
+                               <font>
+                                  <Font name="Baskerville Old Face" size="21.0" />
+                               </font>
+                            </Button>
+                            <Label layoutX="12.0" layoutY="2.0" prefHeight="50.0" prefWidth="100.0" text="Royal Bite " textFill="WHITE">
+                               <font>
+                                  <Font name="Baskerville Old Face" size="22.0" />
+                               </font>
+                            </Label>
+                            <Button fx:id="homeButton3" layoutX="112.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="46.0" prefWidth="118.0" style="-fx-background-color: black;" text="Home" textFill="WHITE">
+                               <font>
+                                  <Font name="Baskerville Old Face" size="20.0" />
+                               </font>
+                            </Button>
+                     </children>
+                  </AnchorPane>
+                  <GridPane layoutX="1.0" layoutY="258.0" prefHeight="1865.0" prefWidth="1539.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <ImageView fitHeight="621.0" fitWidth="768.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="469.0" fitWidth="768.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Risotto.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="623.0" fitWidth="770.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                           <image>
+                              <Image url="@Fasolada.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="620.0" fitWidth="770.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                           <image>
+                              <Image url="@Salmon-in-a-frying-pan.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="618.0" fitWidth="766.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <image>
+                              <Image url="@168fb5b690eb5be40ce003d669cd6071.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="614.0" fitWidth="768.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                           <image>
+                              <Image url="@Fruit.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="617.0" fitWidth="773.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <image>
+                              <Image url="@Cake.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </GridPane>
+                   </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>

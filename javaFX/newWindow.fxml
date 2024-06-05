@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="2200.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BookingController">
+    <content>
+        <AnchorPane prefHeight="2182.0" prefWidth="1558.0" style="-fx-background-color: white;">
+            <children>
+                <Label layoutX="657.0" layoutY="161.0" prefHeight="79.0" prefWidth="235.0" text="Booking">
+                    <font>
+                        <Font name="Baskerville Old Face" size="63.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="nameField" layoutX="223.0" layoutY="354.0" prefHeight="90.0" prefWidth="482.0" promptText="Enter your name place">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="phoneField" layoutX="223.0" layoutY="698.0" prefHeight="90.0" prefWidth="482.0" promptText="Enter phone place">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </TextField>
+                <Label layoutX="223.0" layoutY="310.0" prefHeight="43.0" prefWidth="255.0" text="Name  (required)">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                    </font>
+                </Label>
+                <Label layoutX="223.0" layoutY="499.0" prefHeight="43.0" prefWidth="255.0" text=" Email (required)">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="emailField" layoutX="223.0" layoutY="543.0" prefHeight="90.0" prefWidth="482.0" promptText="Enter your name place">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </TextField>
+                <Label layoutX="223.0" layoutY="654.0" prefHeight="43.0" prefWidth="255.0" text="Phone">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                                        </font>
+                </Label>
+                <Label layoutX="223.0" layoutY="806.0" prefHeight="43.0" prefWidth="255.0" text=" Date (required)">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="dateField" layoutX="223.0" layoutY="850.0" prefHeight="90.0" prefWidth="482.0" promptText="Enter date place">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </TextField>
+                <DatePicker layoutX="223.0" layoutY="1065.0" prefHeight="59.0" prefWidth="450.0" />
+                <Label layoutX="223.0" layoutY="1012.0" prefHeight="43.0" prefWidth="255.0" text=" Date ">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                    </font>
+                </Label>
+                <Label layoutX="223.0" layoutY="1190.0" prefHeight="43.0" prefWidth="255.0" text=" Size   (required)">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                    </font>
+                </Label>
+                <Label layoutX="233.0" layoutY="1260.0" prefHeight="43.0" prefWidth="147.0">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="167.0" layoutY="1416.0" prefHeight="43.0" prefWidth="299.0" text=" Special request  ">
+                    <font>
+                        <Font name="Baskerville Old Face" size="25.0" />
+                    </font>
+                </Label>
+                <TextArea layoutX="167.0" layoutY="1474.0" prefHeight="483.0" prefWidth="1318.0" promptText="Enter here your special request">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </TextArea>
+            <AnchorPane prefHeight="58.0" prefWidth="1526.0" style="-fx-background-color: black;">
+               <children>
+                      <Button layoutX="1420.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: black;" text="Contact" textFill="WHITE">
+                          <font>
+                              <Font name="Baskerville Old Face" size="20.0" />
+                          </font>
+                      </Button>
+                      <Button layoutX="1329.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: black;" text="Menu" textFill="WHITE">
+                          <font>
+                              <Font name="Baskerville Old Face" size="20.0" />
+                          </font>
+                      </Button>
+                      <Button layoutX="1238.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: black;" text="Gallery" textFill="WHITE">
+                          <font>
+                              <Font name="Baskerville Old Face" size="20.0" />
+                          </font>
+                      </Button>
+                      <Label layoutY="4.0" prefHeight="50.0" prefWidth="106.0" text="Royal Bite " textFill="WHITE">
+                          <font>
+                              <Font name="Baskerville Old Face" size="22.0" />
+                          </font>
+                      </Label>
+                  <Button layoutX="98.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: black;" text="Home" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Button fx:id="enterButton" layoutX="734.0" layoutY="2023.0" mnemonicParsing="false" onAction="#handleMassageButton" prefHeight="96.0" prefWidth="184.0" style="-fx-background-color: white; -fx-border-color: black;" text="Enter">
+               <font>
+                  <Font name="Baskerville Old Face" size="30.0" />
+               </font>
+            </Button>
+            <TextField fx:id="sizeField" layoutX="225.0" layoutY="1258.0" prefHeight="90.0" prefWidth="482.0" promptText="Enter size of quest">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>
